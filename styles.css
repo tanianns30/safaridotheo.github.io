@@ -14,7 +14,7 @@ body{
     min-height:100vh;
 
     background-image:
-        linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+        linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)),
         url("https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1800&q=80");
 
     background-size:cover;
@@ -26,58 +26,40 @@ body{
 }
 
 .conteudo{
-
     text-align:center;
     color:white;
     max-width:700px;
     padding:30px;
-
 }
 
 .conteudo h1{
-
     font-size:64px;
     margin-bottom:20px;
-
 }
 
 .conteudo h2{
-
     font-size:34px;
     margin-bottom:25px;
-
 }
 
 .conteudo p{
-
     font-size:22px;
     line-height:1.6;
     margin-bottom:40px;
-
 }
 
 .botao{
-
     background:#d4a017;
     color:white;
-
     border:none;
-
     padding:18px 45px;
-
     border-radius:50px;
-
     font-size:22px;
-
     cursor:pointer;
-
-    transition:.3s;
-
+    transition:0.3s;
 }
 
 .botao:hover{
-
     background:#b8860b;
     transform:scale(1.05);
-
 }
